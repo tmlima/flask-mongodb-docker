@@ -1,0 +1,11 @@
+web:
+    build: .
+    command: python -u app.py
+    ports:
+        - "5000:5000"
+    volumes:
+        - .:/flask_mongodb_docker
+    links:
+        - db_alias
+db_alias:
+    image: mongo:3.0.2

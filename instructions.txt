@@ -1,0 +1,6 @@
+1 - Open a new docker client
+2 - Go to the folder that contains 'Dockerfile' and 'docker-compose.yml'
+3 - Run docker-compose build 
+4 - Run docker-compose up
+5 - Get the VM ip (ex: opening the 'Docker Quickstarter Terminal')
+6 - Open the browser and paste the VM ip with the port specified in docker client
